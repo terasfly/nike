@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
+body {
+    /* width: 1200px; */
+    background-color: #267b87;
+    font-family: "poppins";
+}
+
+.container {
+    background: linear-gradient( 129.86deg, #21e8c4 -20.42%, #179b93 -3.13%, #267b87 24.22%, #0f474f 72.75%);
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.icon {
+    display: flex;
+    margin-left: 155px;
+    gap: 10px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.nike {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #ffff;
+    font-family: "poppins";
+    font-style: normal;
+}
+
+.nike-icon {
+    position: absolute;
+    left: 60px;
+    top: -14px;
+}
+
+.header-links ul {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+    margin-left: 212px;
+}
+
+.header-links li a {
+    text-decoration: none;
+    color: #ece2e2;
+    font-size: 21px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.search-button {
+    position: relative;
+}
+
+.search-button input {
+    margin-left: 52px;
+    background: #d9d9d9;
+    border-radius: 23px;
+    width: 128px;
+    height: 27px;
+    border: none;
+}
+
+.chart-icon {
+    position: relative;
+    top: 3px;
+    margin-left: 18px;
+    width: 29px;
+    height: 29px;
+}
+
+.search-icon {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 3px;
+    right: 129px;
+}
+
+.search-icon-image {}
+
+.main-top {}
+
+.text {}
+
+.image {}
+
+.main-bottom {}
+
+.btn {}
+
+.select-nike {}
+
+.select-nike__text {}
+
+.designed-sign {}
