@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    background: linear-gradient( 129.86deg, #21e8c4 -20.42%, #179b93 -3.13%, #267b87 24.22%, #0f474f 72.75%);
+    background: linear-gradient(129.86deg, #21e8c4 -20.42%, #179b93 -3.13%, #267b87 24.22%, #0f474f 72.75%);
     width: 1200px;
     min-height: 800px;
     margin: 0 auto;
@@ -88,17 +88,149 @@ body {
     right: 129px;
 }
 
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 129%;
+    color: #ffff;
+}
+
 .search-icon-image {}
 
-.main-top {}
+.main-top {
+    display: flex;
+    position: relative;
+}
 
-.text {}
+.main-top__image {
+    position: absolute;
+    background-image: url("images/5e5d9917-b79f-4281-bdcf-9f9dfe3cf461 2.png");
+    width: 600px;
+    height: 432px;
+    bottom: 138px;
+    right: 198px;
+}
 
-.image {}
 
-.main-bottom {}
+/* .title-image {
+    position: absolute;
+    top: -87px;
+    left: 0;
+    /* background: radial-gradient( 50% 50% at 50% 50%, rgba(0, 0, 0, 0.1767) 0%, rgba(0, 0, 0, 0.0057) 100%); */
 
-.btn {}
+
+/* }  */
+
+.title-text__box {
+    width: 160px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 129%;
+    margin-left: 119px;
+    margin-top: 70px;
+}
+
+.text {
+    width: 418px;
+    margin-left: 119px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: "Poppins";
+    letter-spacing: 0.24px;
+}
+
+.image-shoes1 {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/nikecourt-zoom-pro-hard-court-tennis-shoes-nlG4Pg 1.png"), linear-gradient(180deg, rgba(250, 255, 35, 0.99) -4.65%, rgba(250, 255, 35, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #000000;
+    border-radius: 28px;
+}
+
+.image-shoes2 {
+    background-image: url("images/nikecourt-zoom-vapor-cage-4-rafa-hard-court-tennis-shoes-cS7wct 1.png"), linear-gradient(180deg, rgba(250, 255, 35, 0.99) -4.65%, rgba(250, 255, 35, 0) 100%);
+    border-radius: 28px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000000;
+    border-radius: 28px;
+}
+
+.image-shoes3 {
+    background-image: url("images/nikecourt-zoom-pro-hard-court-tennis-shoes-nlG4Pg 1.png"), linear-gradient(180deg, rgba(250, 255, 35, 0.99) -4.65%, rgba(250, 255, 35, 0) 100%);
+    width: 150px;
+    height: 150px;
+    border-radius: 28px;
+    border: 1px solid #000000;
+}
+
+.nike-images {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+
+/* //MAIN BOTTOM */
+
+.main-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    color: rgba(250, 255, 35, 0.99);
+    font-weight: 700;
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 129%;
+    background: linear-gradient(106.81deg, #179b93 43.2%, rgba(217, 217, 217, 0.71) 61.6%);
+    border-radius: 38px;
+    padding: 14px 28px;
+    border: none;
+    margin-left: 63px;
+    margin-top: 35px;
+}
+
+.image1-text {
+    position: absolute;
+    top: 146px;
+    left: 14px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.image2-text {
+    position: absolute;
+    top: 146px;
+    left: 196px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.image3-text {
+    position: absolute;
+    top: 146px;
+    left: 360px;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
 
 .select-nike {}
 
